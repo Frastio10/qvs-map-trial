@@ -6,7 +6,7 @@ const WorldMap = () => {
   return (
     <div style={{ background: "#FAFAFA", maxWidth: "1000px" }}>
       <WorldMapPatternD3
-        mainCountries={["VEN", "FRA"]}
+        mainCountries={["VEN", "IND"]}
         secondariesCountries={["BRA"]}
       />
 
