@@ -1,0 +1,92 @@
+.element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 0.6rem;
+  border: 0.1rem solid #f2f2f2;
+  background: #fafafa;
+  height: 40rem;
+  overflow: hidden;
+
+  .map {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.regions {
+  position: absolute;
+  left: 2.4rem;
+  bottom: 1.4rem;
+
+  display: flex;
+  gap: 3.2rem;
+}
+
+.regions {
+  position: absolute;
+  left: 2.4rem;
+  bottom: 1.4rem;
+
+  display: flex;
+  gap: 3.2rem;
+}
+
+.region {
+  display: flex;
+  gap: 1rem;
+
+  .region-indicator {
+    width: 1.2rem;
+    height: 1.2rem;
+    flex-shrink: 0;
+    border-radius: 0.2rem;
+  }
+
+  .region-indicator {
+    font-family: "Arial";
+    font-size: 0.8rem; /* Default font size */
+
+    font-weight: 400;
+    line-height: 1.4rem;
+    letter-spacing: -0.006rem;
+    color: #515255;
+  }
+}
+
+@media (max-width: 1200px) {
+  .region p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .region p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .regions {
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+  .region p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .region p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .region p {
+    font-size: 0.6rem;
+  }
+}
