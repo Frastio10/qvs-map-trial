@@ -38,23 +38,23 @@
 .region {
   display: flex;
   gap: 1rem;
+}
 
-  .region-indicator {
-    width: 1.2rem;
-    height: 1.2rem;
-    flex-shrink: 0;
-    border-radius: 0.2rem;
-  }
+.region-indicator {
+  width: 1.2rem;
+  height: 1.2rem;
+  flex-shrink: 0;
+  border-radius: 0.2rem;
+}
 
-  .region-indicator {
-    font-family: "Arial";
-    font-size: 0.8rem; /* Default font size */
+.region-title {
+  font-family: "Arial";
+  font-size: 0.8rem; /* Default font size */
 
-    font-weight: 400;
-    line-height: 1.4rem;
-    letter-spacing: -0.006rem;
-    color: #515255;
-  }
+  font-weight: 400;
+  line-height: 1.4rem;
+  letter-spacing: -0.006rem;
+  color: #515255;
 }
 
 @media (max-width: 1200px) {

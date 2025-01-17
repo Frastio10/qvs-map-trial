@@ -138,7 +138,7 @@ const WorldMapPatternD3: FC<{
         .attr("from", "-3500 0")
         .attr("to", "3500 0")
         .attr("repeatCount", "1")
-        .attr("dur", "3s");
+        .attr("dur", "2s");
     });
   }, []);
 
@@ -199,10 +199,10 @@ const WorldMapPatternD3: FC<{
         {regions.map((region) => (
           <div key={region.text} className={styles.region}>
             <span
-              className="region-indicator"
+              className={styles["region-indicator"]}
               style={{ background: region.color }}
             />
-            <p className="region-title">{region.text}</p>
+            <p className={styles["region-title"]}>{region.text}</p>
           </div>
         ))}
       </div>
